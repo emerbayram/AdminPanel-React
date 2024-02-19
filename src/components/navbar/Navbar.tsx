@@ -8,21 +8,21 @@ const Navbar = () => {
         <span>Admin</span>
       </div>
       <div className="icons">
-        <img src="search.svg" alt="" className="icon" />
+        <img src="/search.svg" alt="" className="icon" />
         <img src="/app.svg" alt="" className="icon" />
         <img src="/expand.svg" alt="" className="icon" />
         <div className="notification">
-          <img src="/notification.svg" alt="" />
+          <img src="/notifications.svg" alt="" />
           <span>1</span>
         </div>
         <div className="user">
           <img
-            src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png"
+            src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png?auto=compress&cs=tinysrgb&w=1600&lazy=load"
             alt=""
           />
           <span>Bayram</span>
         </div>
-        <img src="/setting.svg" alt="" className="icon" />
+        <img src="/settings.svg" alt="" className="icon" />
       </div>
     </div>
   );
